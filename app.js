@@ -9,6 +9,10 @@ function clears(){
 function exe(){
     val.value=eval(val.value)
 }
-function cancel(){
-   val .value = val.substr(0, val.length - 1);
+function cancel (){
+    val .value = val.value.substring(0, val.value.length - 1);
+
+}
+function disableButton(){
+    var button=document.getElementById("operator")
 }
