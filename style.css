@@ -3,18 +3,24 @@
     src: url(fonts/CfBlackboardPersonalRegular-AKPg.ttf);
 }
 body{
-    background-color: #661A1A;
+    background-color: black;
     display: flex;
     justify-content: center;
    
 
 }
+#aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #clear{
     width: 100%;
 }
 .btn{
-    border: 5px solid white;
-    background-color: #661A1A;
+    border: 2px solid white;
+    box-shadow: 10px;
+    background-color: black;
     color:white;
     
 }

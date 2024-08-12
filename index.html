@@ -18,13 +18,16 @@
             
             <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" id="inputData" >
           </div>
+          <div id="aside">
           <div id="btns"> <button class="btn" id="clear" type="button" onclick="clears()">C</button>
-            <button type="button" class="btn btn-outline-secondary" onclick="cancel()"><i class="fa-solid fa-arrow-left"></i></button></div>
+            </div>
+            <div><button type="button" class="btn btn-outline-secondary" onclick="cancel ()"><i class="fa-solid fa-arrow-left"></i></button></div>
+          </div>
           <div id="btns">
             <button type="button" class="btn btn-outline-secondary" onclick="display(7)">7</button>
             <button type="button" class="btn btn-outline-secondary" onclick="display(8)">8</button>
             <button type="button" class="btn btn-outline-secondary" onclick="display(9)">9</button>
-            <button type="button" class="btn btn-outline-secondary" onclick="display('/')">/</button>
+            <button type="button" class="btn btn-outline-secondary" id="operator" onclick="display('/')" >/</button>
             
           </div>
           <div id="btns">
